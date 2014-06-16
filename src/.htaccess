@@ -43,7 +43,6 @@ ErrorDocument 404 /404.html
 
 <FilesMatch "\.(htm|html|php)$">
     <IfModule mod_headers.c>
-        BrowserMatch MSIE ie
         Header set X-UA-Compatible "IE=Edge" env=ie
     </IfModule>
 </FilesMatch>
